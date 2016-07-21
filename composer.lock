@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae0748637b9b4c1a3152416b31819751",
-    "content-hash": "7d3d0aa20b7e70cc0ae32f3ad4007289",
+    "hash": "bf6f3270c7d3ca74b2deb167e766dd8b",
+    "content-hash": "afde6d2c023c08d47ea97b010afebc8e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -89,6 +89,57 @@
                 "sinatra"
             ],
             "time": "2014-11-07 07:35:23"
+        },
+        {
+            "name": "league/tactician",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/tactician.git",
+                "reference": "1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/tactician/zipball/1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21",
+                "reference": "1f3aaad497f07a8bef147a37c7e3f2f7c23fcd21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Tactician\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ross Tuck",
+                    "homepage": "http://tactician.thephpleague.com"
+                }
+            ],
+            "description": "A small, flexible command bus. Handy for building service layers.",
+            "keywords": [
+                "command",
+                "command bus",
+                "service layer"
+            ],
+            "time": "2016-02-20 11:14:36"
         },
         {
             "name": "php-di/invoker",

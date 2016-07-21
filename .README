@@ -1,0 +1,4 @@
+# Bachelor thesis examples
+
+1. Install using: `composer install`
+2. Serve: `php -S localhost:8080 index.php`

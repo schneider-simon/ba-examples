@@ -7,6 +7,7 @@ class Validator
 {
     public function isValidEmail($email)
     {
-        \logAction("validate email");
+        logAction("Validator->isValidEmail");
+        return true;
     }
 }
