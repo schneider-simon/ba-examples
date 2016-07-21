@@ -1,0 +1,12 @@
+{
+    "name": "simon.schneider/ba-examples",
+    "description": "PHP Code examples of my bachelor thesis.",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Simon Schneider",
+            "email": "sschneider@w-commerce.de"
+        }
+    ],
+    "require": {}
+}
