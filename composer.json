@@ -8,5 +8,12 @@
             "email": "sschneider@w-commerce.de"
         }
     ],
-    "require": {}
+    "require": {
+        "php-di/php-di": "^5.3",
+        "klein/klein": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {"Examples\\": "src/"}
+    },
+    "minimum-stability": "dev"
 }
