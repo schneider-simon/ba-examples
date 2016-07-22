@@ -12,12 +12,10 @@ class Config
     public function __construct()
     {
         $this->config = [
-            'validations' => [
-                'register' => [
-                    HasEmailAndPassword::class,
-                    ValidEmail::class,
-                    EmailNotUsed::class
-                ]
+            'validations.register' => [
+                HasEmailAndPassword::class,
+                ValidEmail::class,
+                EmailNotUsed::class
             ]
         ];
     }
