@@ -15,7 +15,7 @@ class Rectangle extends Shape
      */
     protected $height;
 
-    public function area()
+    public function area() : float
     {
         return $this->width * $this->height;
     }

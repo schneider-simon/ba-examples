@@ -3,27 +3,10 @@
 namespace Examples\LSP\Good;
 
 
-use Examples\LSP\General\Rectangle;
-use Examples\LSP\General\Shape;
-
-class Square extends Shape
+interface Square
 {
-    protected $length;
+    public function setLength(float $length);
 
-    /**
-     * @return mixed
-     */
-    public function getLength()
-    {
-        return $this->length;
-    }
-
-    /**
-     * @param mixed $length
-     */
-    public function setLength($length)
-    {
-        $this->length = $length;
-    }
+    public function getLength() : float;
 
 }
